@@ -1,0 +1,123 @@
+body {
+  background: #def1f3;
+  font-family: "Montserrat", sans-serif;
+  color: #0f7766;
+}
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.rufina-bold {
+  font-family: "Rufina", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+a,.lh-3  {
+  color: #0f7766;
+}
+ul {padding:20px 0 5px 0;margin:0;color: #7e4f0398;}
+.card, .d-block, .m-auto{background:none;border:none;}
+.container {
+  background: white;
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 30px 50px rgba(45, 93, 102, 0.2);
+}
+
+.search-form {
+  border-bottom: 2px dashed #f3a11d50;
+  padding-bottom: 10px;
+}
+
+.form-control.shadow-sm {
+  border-bottom: 2px dashed #f3a11d50;
+  background-color: #eefcfd;
+  border-style: double;
+  border-color: #0f7766;
+  color: #0f7766;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  max-width: 100%;
+  border-radius: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-control.btn.btn-primary{
+
+  font-size: 18px;
+  padding: 20px;
+  width: 100%;
+  background-color: #f3a11d;
+  color: white;
+  border: none;
+  
+  line-height: 1.9;
+  border-radius: 3px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+main {
+  padding: 30px 0;
+}
+
+.temperature {
+  font-size: 100px;
+  font-family: "Rufina", serif;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 900;
+  margin: 0;
+  font-family: "Rufina", serif;
+  color: #7e4f03;
+}
+.current-details {
+  color: rgba(31, 31, 31);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.current-details strong {
+  color: #f3a11d;
+}
+
+.current-temperature-icon {
+  position: relative;
+  top: -8px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.current-temperature-value {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.current-temperature-unit {
+  font-size: 20px;
+  position: relative;
+  top: -32px;
+}
+
+footer {
+  border-top: 2px dashed #f3a11d50;
+  text-align: center;
+  padding-top: 15px;
+
+  color: rgba(39, 33, 66, 0.4);
+}
+
